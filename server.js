@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 //Define route
 app.use('/api/v1', Router);
-app.use('/', passportRouter);
+// app.use('/', passportRouter);
 
 
 // Initialize express-session middleware
