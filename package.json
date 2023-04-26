@@ -1,12 +1,12 @@
 {
-  "name": "steven",
-  "version": "1.0.0",
+  "name": "sanjay_murmu",
+  "version": "14.17.5",
   "description": "this is car renter web backend",
   "main": "server.js",
   "scripts": {
     "test": "npm run dev",
     "dev": "nodemon server.js",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "car",
@@ -29,6 +29,10 @@
     "razorpay": "^2.8.6"
   },
   "devDependencies": {
+    "eslint": "^8.39.0",
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14 <15"
   }
 }
